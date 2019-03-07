@@ -1,0 +1,14 @@
+{% extends 'CodeCrewApp/base.html' %}
+
+{% block header %}
+<h1>Thanks For Supporting Code Crew!!</h1>
+<h2>Contact Us</h2>
+{% endblock header %}
+
+{% block content %}
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button>Contact Code Crew</button>
+</form>
+{% endblock content %}

@@ -1,0 +1,16 @@
+body{
+    background-color:cadetblue;
+    text-align: center;
+    margin: 10% 15%;
+    padding : 10%;
+
+}
+
+a{
+    color: white !important;
+}
+
+.pictures{
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
